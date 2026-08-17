@@ -3,3 +3,8 @@
 *~
 *.png
 **/.ipynb_checkpoints
+__pycache__/
+
+# zh/ org-mode chapters embed extracted plot images alongside the .org file
+# (the .ipynb versions embed outputs inline, but .org needs real image files)
+!zh/**/*_files/*.png
